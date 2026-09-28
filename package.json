@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shiftcron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shift timestamps and cron durations for scripts and CI receipts.",
+  "bin": {
+    "shiftcron": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shiftcron.git"
+  },
+  "homepage": "https://theworker02.github.io/shiftcron/",
+  "keywords": [
+    "shift",
+    "cron",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
